@@ -9,3 +9,8 @@ for i in range(len(text)-1):
         largest = block
 print('The length of the largest block in this text is', largest)
 #try not to use while in a for loop
+# in place of while
+#    if text[i] == text[i+1]:
+#        block += 1
+#    else:
+#        block = 1
