@@ -1,0 +1,14 @@
+1 with open('irish_song.txt') as file:
+2     line = file.readline().rstrip()
+3     shortest = len(line)
+4     zin = line
+5     line = file.readline().rstrip()
+6     while line:
+7         if line != '\n':
+8             length = len(line)
+9         if length < shortest:
+10             shortest = length
+11             zin = line
+12         line = file.readline().rstrip()
+13 print('The shortest line has', shortest, 'characters')
+14 print(zin)
