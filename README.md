@@ -1,2 +1,2 @@
 # python
-#oefening voor python(ITF)
+#oefening voor python(1ITF)
